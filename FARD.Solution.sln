@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain Entity Layer", "1. Domain Entity Layer", "{30665CCE-B8D8-4523-811F-25CF7BA4C27D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Repository Layer", "2. Repository Layer", "{C5C35FF7-FDF6-4B69-B024-5C917DC8BE60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{6D5DAA35-A43F-46A4-A4F9-158C3960A2AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation Layer", "4. Presentation Layer", "{460F2C13-3605-4B7C-A30C-4332F0D8F303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Unit Test Layer", "5. Unit Test Layer", "{4BCF6FF5-4764-42F1-8180-20C9D18A90D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FARD.Data", "FARD.Data\FARD.Data.csproj", "{1B7A67D7-6413-4305-975B-160399C0FED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FARD.Models", "FARD.Models\FARD.Models.csproj", "{699E64E5-B37B-4BA6-9F0F-C0B87E600CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7A67D7-6413-4305-975B-160399C0FED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7A67D7-6413-4305-975B-160399C0FED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7A67D7-6413-4305-975B-160399C0FED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7A67D7-6413-4305-975B-160399C0FED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699E64E5-B37B-4BA6-9F0F-C0B87E600CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699E64E5-B37B-4BA6-9F0F-C0B87E600CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699E64E5-B37B-4BA6-9F0F-C0B87E600CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699E64E5-B37B-4BA6-9F0F-C0B87E600CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B7A67D7-6413-4305-975B-160399C0FED9} = {30665CCE-B8D8-4523-811F-25CF7BA4C27D}
+		{699E64E5-B37B-4BA6-9F0F-C0B87E600CDC} = {30665CCE-B8D8-4523-811F-25CF7BA4C27D}
+	EndGlobalSection
+EndGlobal
